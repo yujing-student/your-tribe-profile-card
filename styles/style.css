@@ -12,7 +12,7 @@ body {
   align-items: center;
   height: 100vh;
   font-family: open sans;
-  color: #10214e;
+  color: #244ec2;
 }
 
 article {
@@ -69,7 +69,7 @@ svg {
   position: absolute;
   top: calc(1.25rem - 12px);
   left: calc(1.25rem - 12px);
-  stroke: #4e54c8;
+  stroke: #6fe734;
   transition-delay: .25s;
 }
 button svg:nth-of-type(2) {

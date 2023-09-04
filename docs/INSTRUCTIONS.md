@@ -129,7 +129,7 @@ De vormgeving van een webpagina worden vastgelegd in Cascading Style Sheets (CSS
 <img width="997" alt="image" src="https://user-images.githubusercontent.com/1391509/188333062-95cb57ce-36d1-42a3-9628-074d09b706c2.png">
 
 
-  0. Kun je zien op welke regel in het HTML document het CSS bestand wordt gekoppeld?
+  0. Kun je zien op welke regel in het HTML document het CSS bestand wordt gekoppeld? ja dat is regel 7
   1. Open het ```styles/style.css``` bestand in een editor. 
   2. Op regel 28 en 29 wordt de achtergrondkleur vastgelegd in de regels:
 ```CSS
@@ -160,7 +160,7 @@ De interactie op de pagina wordt bepaald door JavaScript (JS). De JS code staat 
 <img width="997" alt="image" src="https://user-images.githubusercontent.com/1391509/188333102-b036f6f8-4c76-427d-9b88-eb5fd323ff5d.png">
 
 
-  0. Kun je zien op welke regel in het HTML document het JS document wordt gekoppeld?
+  0. Kun je zien op welke regel in het HTML document het JS document wordt gekoppeld? regel 55 onderaan
   1. Open het ```scripts/script.js``` bestand in een editor. 
   2. Schrijf achter elke regel wat die doet.
   3. Heb je zelf ook een interactie bedacht voor je visitekaartje? Hoe zou je dat kunnen maken?
