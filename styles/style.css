@@ -110,13 +110,13 @@ hr{
   display: block;
   margin-inline-start: 40px;
 }
-.kop{
-  text-decoration-color: black;
-  margin: 20px;
-  padding-left: .3rem;
+.spanverhaal{
+  text-decoration-color: #cb2e2e;
+  padding-left: .2rem;
   transition: .25s .3s;
   font-weight: bold;
   background-color: yellow;
+  margin-top: 25px;
 }
 dl {
   display: grid;
