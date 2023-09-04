@@ -59,7 +59,7 @@ button {
 }
 button:focus {
   outline: none;
-  background: #202592;
+  background: #f32be2;
 }
 button:focus svg {
   stroke: rgba(0,239,255,1);
