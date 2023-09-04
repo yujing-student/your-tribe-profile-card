@@ -108,20 +108,23 @@ hr{
 }
 .divtest{
   display: block;
-  margin-inline-start: 40px;
+  /*margin-inline-start: 40px;*/
+  /*margin-inline-end: 40px;*/
+  border: solid;
+  border-color: black;
 }
 .spanverhaal{
-  text-decoration-color: #cb2e2e;
-  padding-left: .2rem;
+  margin: 0;
+  /*padding-left: .2rem;*/
   transition: .25s .3s;
   font-weight: bold;
-  background-color: yellow;
-  margin-top: 25px;
+
 }
 dl {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
+    /*html dd is rij 1 css dd is rij 2 js dd is rij 3*/
     "html-dd css-dd js-dd"
     "html-dt css-dt js-dt"
 ;
@@ -135,7 +138,14 @@ dl {
   background: rgb(255,255,255);
 
 }
+.dt{
+  margin-top: .25rem;
+  padding-top: .25rem;
 
+}
+.dt:nth-of-type(1) {
+  grid-area: html-div;
+}
 dt {
   margin-top: .25rem;
   padding-top: .25rem;
@@ -144,8 +154,9 @@ dt:nth-of-type(1) {
   grid-area: html-dt;
 }
 dt:nth-of-type(2) {
-  grid-area: css-dt;
+  grid-area: css-dt;/* dit is de 2de rij ik hou van fitness*/
   transform: translateY(1rem);
+/*  hiermee heb je die rare knik en is het niet 1 rechte lijn*/
 }
 dt:nth-of-type(3) {
   grid-area: js-dt;
