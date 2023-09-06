@@ -3,14 +3,14 @@
 }
 
 html {
-  /*height: 100vh;*/
+  height: 100vh;
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*height: 100vh;*/
+  height: 100vh;
   font-family: open sans, Arial, serif;
 
 }
@@ -20,10 +20,10 @@ article {
 
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
-  justify-content: flex-start;
-  width: 65vw;  /*breedte van visitekaartje*/
-  height: 40vw;
+  align-items: center;
+  justify-content: flex-end;
+  width: 60vw;  /*breedte van visitekaartje*/
+
   max-width: 85em;
   min-width: 20em;
   border-radius: 1rem;
@@ -85,11 +85,10 @@ button svg:nth-of-type(2) {
 
 img  {
   position: relative;
-  /*top: 1em;*/
+  top: 1em;
   width: 20em;
   height: auto;
-  left: 20em;
-  align-items: center;
+  right: 23em;
   border: 5px solid #fff;
   border-radius: 1em;
   box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
@@ -107,33 +106,30 @@ img  {
   border-radius: 20em;
 }
 
-/*over mij div*/
-.div-over-mij{
-  /*positineren van de div*/
-  position: absolute;
-  top: 8em;
-  right: 36em;
-  align-items: flex-start;
-  /*zwarte rand meegeven*/
-  border: solid black;
-  /*breedte afstellen van de div*/
-  width: 20vw;
+.grid-container-info{
+  display: grid;
+  grid-template-columns: repeat(1, 6fr);
+  grid-template-areas:
+"html-div "
+ "html-div "
+"html-div"
+;
+  grid-row-gap: 2em;
+  /*positoneren van de container*/
+  position: relative;
+  width: 18vw;
+  right: -1em;
+  /*background-color: white;*/
+  margin-top: -9em;/*  plek container en afstand van de top dus van h1/*/
 
-}.div-sporten{
-   position: absolute;
-   top: 8em;
-   right: 0em;
-  border: solid black;
-   width: 20vw;
+}
 
-}.div-vrije-tijd{
-    position: relative;
-    /*top: 1em;*/
-    height: auto;
-    left: 20em;
-    align-items: center;
+.divs{
+  display: block;
   border: solid black;
-    width: 20vw;
+
+
+
 
 }
 .inhoud-kop-h3{
