@@ -133,7 +133,7 @@ border: 0.1em solid;
     position: relative;
     /*top: 1em;*/
     height: auto;
-    left: 20em;
+    left: 20.5em;
     align-items: center;
   border: solid black;
     width: 20vw;
@@ -143,29 +143,19 @@ border: 0.1em solid;
    display: flex;
    align-items: center;
    justify-content: center;
+
  }
 .inhoud-kop-h3{
-  margin: 0;
-  padding-left: .2rem;
-
   transition: .25s .3s;
   /*font text decoration*/
   font-size: 1em;
   font-family: cursive;
-
-    margin-top: .25rem;
-    padding-top: .25rem;
-    color: #390000;
+  color: #390000;
   /*center items in het midden*/
   display: flex;
   align-items: center;
   justify-content: center;
-
-
-  /*display: flex;*/
-  /*align-items: center;*/
-  /*justify-content: center;*/
-
+  height: 5em;
 }
 /* dlle linkjes met a href worden rood als je erop staat met je muis*/
 a:hover {
