@@ -28,7 +28,7 @@ article {
   min-width: 20em;
   border-radius: 1rem;
   background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4fdd51 100%);  /*achtergrondkleur visitekaartje*/
+  background: linear-gradient(0deg, rgb(255, 69, 69) 40%, #4fdd51 100%);  /*achtergrondkleur visitekaartje*/
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1); /*ronde hoeken*/
 
   transition: .25s;
@@ -103,7 +103,7 @@ img  {
 }
 #my-image {
   /*hier word de foto rond*/
-  border-radius: 20em;
+  /*border-radius: 20em;*/
 }
 
 .grid-container-info{
