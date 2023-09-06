@@ -139,6 +139,11 @@ border: 0.1em solid;
     width: 20vw;
 
 }
+ .h3-kop{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
 .inhoud-kop-h3{
   margin: 0;
   padding-left: .2rem;
@@ -148,79 +153,25 @@ border: 0.1em solid;
   font-size: 1em;
   font-family: cursive;
 
+    margin-top: .25rem;
+    padding-top: .25rem;
+    color: #390000;
   /*center items in het midden*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
   /*display: flex;*/
   /*align-items: center;*/
   /*justify-content: center;*/
 
-}
-/*tekst onder kopjes*/
-.inhoud-kop-h3 {
-  margin-top: .25rem;
-  padding-top: .25rem;
-  color: #390000;
-  /*center items in het midden*/
-  /*display: flex;*/
-
-  /*align-items: center;*/
-  /*justify-content: center;*/
 }
 /* dlle linkjes met a href worden rood als je erop staat met je muis*/
 a:hover {
   color: #ea1f1f;
 }
-/*dit is oud*/
-/*dl {*/
-/*  display: grid;*/
-/*  grid-template-columns: 1fr 1fr 1fr;*/
-/*  grid-template-areas:*/
-/*    !*html dd is rij 1 css dd is rij 2 js dd is rij 3*!*/
-/*          "html-dd css-dd js-dd"*/
-/*    "html-dt css-dt js-dt"*/
-/*;*/
-/*  justify-items: center;*/
-/*  align-items: start;*/
-/*  width: 100%;*/
-/*  margin-top: -3rem;*/
-/*  margin-bottom: 0;*/
-/*  padding: 5rem 0 3rem;*/
-/*  text-align: center;*/
-/*  background: rgb(255,255,255);*/
 
-/*}*/
-
-
-
-
-/*dt {*/
-/*  margin-top: .25rem;*/
-/*  padding-top: .25rem;*/
-/*  border-top: 1px solid rgba(220, 80, 80, 0.3);}*/
-/*dt:nth-of-type(1) {*/
-/*  grid-area: html-dt;*/
-/*}*/
-/*dt:nth-of-type(2) {*/
-/*  grid-area: css-dt;!* dit is de 2de rij ik hou van fitness*!*/
-/*  transform: translateY(1rem);*/
-/*  !*  hiermee heb je die rare knik en is het niet 1 rechte lijn*!*/
-/*}*/
-/*dt:nth-of-type(3) {*/
-/*  grid-area: js-dt;*/
-/*}*/
-
-/*dd {*/
-/*  margin: 0;*/
-/*  padding-left: .3rem;*/
-/*  transition: .25s .3s;*/
-/*  font-weight: bold;*/
-/*}*/
-/*dd:nth-of-type(2){*/
-/*  transform: translateY(1rem);*/
-/*}*/
-
-p {
-  margin: 0;
-}
 
 article > p {
   width: 100%;
