@@ -1,58 +1,49 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FDND Visitekaartje</title>
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FDND Visitekaartje</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
 
-  <article>
+<article>
 
-    <header>
+  <header>
 
-      <h1>Yu Jing van Gerwen</h1>
-      <button>
-        <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <title>Wijzig layout</title>
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-          <path d="M4 8v-2a2 2 0 0 1 2 -2h2"></path>
-          <path d="M4 16v2a2 2 0 0 0 2 2h2"></path>
-          <path d="M16 4h2a2 2 0 0 1 2 2v2"></path>
-          <path d="M16 20h2a2 2 0 0 0 2 -2v-2"></path>
-        </svg>
-        <svg width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-          <path d="M15 19v-2a2 2 0 0 1 2 -2h2"></path>
-          <path d="M15 5v2a2 2 0 0 0 2 2h2"></path>
-          <path d="M5 15h2a2 2 0 0 1 2 2v2"></path>
-          <path d="M5 9h2a2 2 0 0 0 2 -2v-2"></path>
-        </svg>
-      </button>
+    <h1>Yu Jing van Gerwen</h1>
+    <div class="tekst-hover-me">hover voor meer informatie klik en hover over de bestaande tekst</div>
 
-    </header>
+  </header>
+  <button type="button" onclick="show()" id="btnID">
+   laat foto zien
+  </button>
+  <img id="image" src=""
+       alt="" >
+<!--  uitzoeken klikfunctie voor verschijnen extra div onder over mij zpdat de gebuiker meer info heeft over de foto-->
 
-    <img id="my-image" src=""
-         alt="" width="400" height="400 ">
+  <div class="div-over-mij">
+    <h3 class="h3-overmij">over mij</h3>
+    <hr><!--        https://www.w3schools.com/cssref/playdemo.php?filename=playcss_visibility&preval=hidden hier is naar kijken-->
+    <div class="overmij-content" >ik ben  19 jaar oud en ik woon in assendelft  </div>
+    <a href="https://www.regiocollege.nl/" class="overmij-content">ik heb mijn mbo4 behaald
+      op het regio college klik voor meer info</a>
+  </div>
 
-      <div class="div-over-mij">
-        <h3 class="h3-kop">over mij</h3>
-        <hr>
-<!--        https://www.w3schools.com/cssref/playdemo.php?filename=playcss_visibility&preval=hidden hier is naar kijken-->
-        <div class="inhoud-kop-h3" >ik ben  19 jaar oud en ik woon in assendelft  </div>
-        <a href="https://www.regiocollege.nl/" class="inhoud-kop-h3">ik heb mijn mbo4 behaald
-        op het regio college klik voor meer info</a>
-      </div>
-      <div class="div-sporten"><h3 class="h3-kop">sporten</h3><hr>
-        <span class="inhoud-kop-h3"> ik hou van fitnessen en doe aan krachttraining</span></div>
+  <div class="div-sporten">
+    <h3 class="h3-sporten">sporten</h3>
+    <hr>
+    <div class="sporten-content"> ik hou van fitnessen en doe aan krachttraining</div></div>
 
-      <div class="div-vrije-tijd"><h3 class="h3-kop">vrije tijd</h3><hr>
-        <span class="inhoud-kop-h3"> ik kijk graag voetbal en vind het leuk om series en films te kijke</span></div>
-  </article>
+<!--hover functie met afbeelding verstoppen en als je over sporten hovert dan komt er een foto met een link in het bijschirft tevoorschijn-->
+  <div class="div-vrije-tijd">
+    <h3 class="h3-vrije-tijd">vrije tijd</h3><hr>
+    <div class="vrije-tijd-content"> ik kijk graag voetbal en vind het leuk om series en films te kijke</div></div>
+</article>
 
 
     <script src="scripts/script.js"></script>
-    
-  </body>
+
+</body>
 </html>
