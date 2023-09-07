@@ -1,10 +1,10 @@
-const expandButton = document.querySelector('header button')// header button
-
-expandButton.addEventListener('click', expand)//klikken open gaan
-
-function expand () {
-  document.body.classList.toggle('expand')
-}
+// const expandButton = document.querySelector('header button')// header button
+//
+// expandButton.addEventListener('click', expand)//klikken open gaan
+//
+// function expand () {
+//   document.body.classList.toggle('expand')
+// }
 function show() {
   /* Get image and change value
   of src attribute */

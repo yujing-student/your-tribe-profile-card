@@ -65,21 +65,23 @@ img  {
   height: auto;
   left: 15.4em;
   align-items: center;
-  border: 5px solid #fff;
-  border-radius: 1em;
-  box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
-  /*transform scale daarmee word het groter iedere keer als je index opent dan zie je de transvorming refreshen helpt niet */
-  transform: scale(1);
-  /*duration is de tijd die het gebruikt voor de transietie om groter te worden*/
-  transition-duration: 5s;
+
   /*uitzoeken waarom de afbeelding niet kleiner word als je op die button drukt*/
   /*transition: .25s .15s;*/
 
 
 }
-#my-image {
+#image {
   /*hier word de foto rond*/
   /*border-radius: 20em;*/
+  /*border: 5px solid #fff;*/
+  /*border-radius: 1em;*/
+  /*box-shadow: 0 0 2px 2px rgba(0,0,0,.2);*/
+
+  /*transform scale daarmee word het groter iedere keer als je index opent dan zie je de transvorming refreshen helpt niet */
+  transform: scale(1);
+  /*duration is de tijd die het gebruikt voor de transietie om groter te worden*/
+  transition-duration: 5s;
 }
 hr{
   border: 0.1em solid;
@@ -89,8 +91,9 @@ hr{
 .div-over-mij{
   /*positineren van de div*/
   position: absolute;
-  top: 10em;
-  left: 2em;
+  top: 12em;
+  left: 1.6em;
+
   align-items: center;
   /*zwarte rand meegeven*/
   border: solid black;
@@ -100,7 +103,7 @@ hr{
 
 }.div-sporten{
    position: absolute;
-   top: 10em;
+   top: 12em;
    right: 1em;
   left: 30em;
   align-items: center;
@@ -111,11 +114,12 @@ hr{
 
  }.div-vrije-tijd{
     position: relative;
-     top: 1.5em;
+     top: 3.4em;
     height: auto;
     left: 15em;
     align-items: center;
     border: solid black;
+     background-color: #DEFF92;
      width: 12vw;
 
   }
@@ -208,16 +212,18 @@ article > p {
 }
 button{
   position: absolute;
-  right: 25rem;
-  top: 1rem;
-  width: 2.5rem;
-  height: 2.5rem;
+  right: 20rem;
+  top: 30rem;
+  width: 6rem;
+  height: 6rem;
   padding: .25rem;
   border: none;
   border-radius: 50%;
-  background: rgb(232, 39, 22);
+  /*background: rgb(232, 39, 22);*/
   transform: scale(.8);
   transition: .25s;
+/*  tekst grootte*/
+  font-size: 1em;
 }
 button:focus {
   outline: none;
