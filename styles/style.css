@@ -12,6 +12,7 @@ body {
   align-items: center;
   /*height: 100vh;*/
   font-family: open sans, Arial, serif;
+  background: linear-gradient(0deg, rgb(90, 109, 112) 40%, #ddbc4f 100%);
 
 }
 
@@ -30,7 +31,7 @@ article {
   min-width: 20em;
   border-radius: 1rem;
   background: #00ff92;
-  /*background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4fdd51 100%);  !*achtergrondkleur visitekaartje*!*/
+ background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4fdd51 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1); /*ronde hoeken*/
 
   transition: .25s;
@@ -54,6 +55,7 @@ h1 {
 }
 .tekst-hover-me{
   font-size: 1.5em;
+  /*background-color: #23da5d;*/
 }
 
 
@@ -162,7 +164,7 @@ hr{
 
   transition: .25s .3s;
   /*font text decoration*/
-  font-family: cursive;
+  font-family: 'Urbanist', sans-serif;
   color: #390000;
   /*center items in het midden*/
  font-size: 0.90em;
@@ -173,7 +175,7 @@ hr{
   transition: .25s .3s;
   /*font text decoration*/
   font-size: 1em;
-  font-family: cursive;
+  font-family: 'Urbanist', sans-serif;
   color: #390000;
   /*center items in het midden*/
   display: flex;
@@ -187,7 +189,7 @@ hr{
   transition: .25s .3s;
   /*font text decoration*/
   font-size: 1em;
-  font-family: cursive;
+  font-family: 'Urbanist', sans-serif;
   color: #390000;
   /*center items in het midden*/
   display: flex;
