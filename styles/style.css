@@ -30,6 +30,7 @@ article {
   max-width: 85em;
   min-width: 20em;
   border-radius: 1rem;
+  /*rondjes van artick*/
   background: #00ff92;
  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4fdd51 100%);
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1); /*ronde hoeken*/
@@ -88,9 +89,11 @@ hr{
 .div-over-mij{
   /*positineren van de div*/
   position: absolute;
+  /*div in de hoek*/
   top: 12em;
   left: 1.6em;
   border-radius: 2em;
+  /*lengte breedte*/
   width: 12vw;
   height: 14em;
   /*border: 5px solid #fff;*/
@@ -104,6 +107,7 @@ hr{
 
 
 }.div-sporten{
+   /*positioneren van de div*/
    position: absolute;
    top: 12em;
    right: 1em;
@@ -112,7 +116,7 @@ hr{
    border: solid black;
 
    background-color: #DEFF92;
-
+   /*rondjes en lengte en hoogte*/
    border-radius: 2em;
    width: 12vw;
    height: 14em;
@@ -190,7 +194,9 @@ hr{
   align-items: center;
   justify-content: center;
   height: 5em;
+  /*hogte van de content*/
   visibility: hidden;
+/*  content niet zichtbaar*/
 }
 
 .vrije-tijd-content{
@@ -228,8 +234,10 @@ button{
   height: 6rem;
   padding: .25rem;
   border: none;
+  /*rondje word hier gemaakt*/
   border-radius: 50%;
   /*background: rgb(232, 39, 22);*/
+  /*vegroten van het rondje*/
   transform: scale(.8);
   transition: .25s;
 /*  tekst grootte*/
