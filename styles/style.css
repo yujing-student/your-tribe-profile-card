@@ -10,24 +10,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*height: 100vh;*/
+
   font-family: open sans, Arial, serif;
-  /*background: linear-gradient(0deg, rgb(90, 109, 112) 40%, #ddbc4f 100%);*/
-/*background-image: url("sportcentrum.jpg");*/
+
 }
 
 article {
   position: relative;  /*positie kleine button in rood*/
-
   display: flex;
-  flex-direction: column;
-  /*align-items: center;*/
+  flex-direction: column; /*align-items: center;*/
   justify-content: flex-start;
-  width: 46vw;
-  /*breedte visitekaart*/
-  height: 48vw;
-  /*lengte visitekaartje*/
-  max-width: 85em;
+  width: 46vw; /*breedte visitekaart*/
+  height: 48vw; /*lengte visitekaartje*/
+  max-width: 85em; /*minimale breedt*/
   min-width: 20em;
   border-radius: 1rem;
   /*rondjes van artick*/
@@ -87,7 +82,7 @@ hr{
   /*color: red;*/
 }
 /*over mij div*/
-.div-over-mij{
+.div-about-me{
   position: absolute;   /*met absolutut blijft de div op 1 aangewezen positie die niet hetzelfde is als de andere divs over mij en vrije tijd
   en kan de div dus ook boven op een andere dv zitten*/
   /*div in de hoek*/
@@ -104,7 +99,7 @@ hr{
   /*breedte afstellen van de div*/
 
 
-}.div-sporten{
+}.div-sport{
    /*positioneren van de div*/
    position: absolute;
    top: 12em;
@@ -120,7 +115,7 @@ hr{
    height: 14em;
 
 
- }.div-vrije-tijd{
+ }.div-free-time{
     position: relative;
      top: 3.4em;
 
@@ -143,14 +138,14 @@ hr{
   font-size: 1.25em;
 }
 
-.h3-overmij{
+.h3-oubout-me{
   display: flex;
   align-items: center;
   justify-content: center;
   /*  text decoratie*/
   font-size: 1.25em;
 }
-.h3-vrije-tijd{
+.h3-free-time{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -161,15 +156,15 @@ hr{
   /*center items in het midden*/
 }
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator dit teken ~*/
-.h3-vrije-tijd:hover~ .vrije-tijd-content{
+.h3-free-time:hover~ .free-time-content{
   visibility: visible;
 /*  als je over de div h3 vrije tijd hovert dan word de class vrije tijd content geacttiveerd en laat die de inhoud hiervan zien*/
-/*  het ~ teken betkend dat als je fds*/
+/*  het ~ teken betkend dat als je */
 }
-.h3-sporten:hover~ .sporten-content{
+.h3-sporten:hover~ .sport-content{
   visibility: visible;
 }
-.overmij-content{
+.about-me-content{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -184,7 +179,7 @@ hr{
   height: 4em;
 }
 
-.sporten-content{
+.sport-content{
   transition: .25s .3s;
   /*font text decoration*/
   font-size: 1em;
@@ -200,7 +195,7 @@ hr{
 /*  content niet zichtbaar*/
 }
 
-.vrije-tijd-content{
+.free-time-content{
   transition: .25s .3s;
   /*font text decoration*/
   font-size: 1em;
