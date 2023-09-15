@@ -56,7 +56,6 @@ h1 {
 }
 img  {
   position: relative;
-
   top: 1em;
   width: 12.5em;
   height: auto;
@@ -69,9 +68,6 @@ img  {
 
 }
 #image {
-
-
-
   /*transform scale daarmee word het groter iedere keer als je index opent dan zie je de transvorming refreshen helpt niet */
   transform: scale(1);
   /*duration is de tijd die het gebruikt voor de transietie om groter te worden*/
@@ -79,7 +75,6 @@ img  {
 }
 hr{
   border: 0.1em solid;
-  /*color: red;*/
 }
 /*over mij div*/
 .div-about-me{
@@ -89,47 +84,37 @@ hr{
   top: 12em;
   left: 1.6em;
   border-radius: 2em;
-  /*lengte breedte*/
   width: 12vw; /*vw staat voor viewport*/
-  height: 14em;
-
+  height: 14em; /*hoogte*/
   align-items: center; /*zwarte rand meegeven*/
   border: solid black;
   background-color: #DEFF92;
-  /*breedte afstellen van de div*/
-
-
-}.div-sport{
-   /*positioneren van de div*/
-   position: absolute;
-   top: 12em;
-   right: 1em;
+}
+.div-sport{
+  /*positioneren van de div*/
+  position: absolute;
+  top: 12em;
+  right: 1em;
   left: 30em;
   align-items: center;
-   border: solid black;
-
-   background-color: #DEFF92;
-   /*rondjes en lengte en hoogte*/
-   border-radius: 2em;
-   width: 12vw;
-   height: 14em;
-
-
- }.div-free-time{
-    position: relative;
-     top: 3.4em;
-
-    left: 15em;
-    align-items: center;
-    border: solid black;
-     background-color: #DEFF92;
-
-     border-radius: 2em;
-     width: 12vw;
-     height: 14em;
-
-
-   }
+  border: solid black;
+  background-color: #DEFF92;
+  /*rondjes en lengte en hoogte*/
+  border-radius: 2em;
+  width: 12vw;
+  height: 14em;
+ }
+.div-free-time{
+  position: relative;
+  top: 3.4em;
+  left: 15em;
+  align-items: center;
+  border: solid black;
+  background-color: #DEFF92;
+  border-radius: 2em;
+  width: 12vw;
+  height: 14em;
+}
 .h3-sporten{
   display: flex;
   align-items: center;
@@ -146,14 +131,13 @@ hr{
   font-size: 1.25em;
 }
 .h3-free-time{
-  display: flex;
+  display: flex;  /*center items in het midden*/
   align-items: center;
   justify-content: center;
-  /*  text decoratie*/
   /*font text decoration*/
   font-size: 1.25em;
   color: #390000;
-  /*center items in het midden*/
+
 }
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator dit teken ~*/
 .h3-free-time:hover~ .free-time-content{
@@ -169,13 +153,12 @@ hr{
   align-items: center;
   justify-content: center;
   /*  text decoratie*/
-
   transition: .25s .3s;
   /*font text decoration*/
   font-family: 'Urbanist', sans-serif;
   color: #390000;
   /*center items in het midden*/
- font-size: 0.90em;
+  font-size: 0.90em;
   height: 4em;
 }
 
