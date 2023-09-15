@@ -39,6 +39,7 @@ article {
 }
 
 header {
+/*   positie van header */
   display: flex;
   flex-direction: column;
   align-items: center;
