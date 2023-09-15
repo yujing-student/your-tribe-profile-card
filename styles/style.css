@@ -142,6 +142,7 @@ hr{
   /*  text decoratie*/
   font-size: 1.25em;
 }
+
 .h3-overmij{
   display: flex;
   align-items: center;
@@ -163,7 +164,7 @@ hr{
 .h3-vrije-tijd:hover~ .vrije-tijd-content{
   visibility: visible;
 /*  als je over de div h3 vrije tijd hovert dan word de class vrije tijd content geacttiveerd en laat die de inhoud hiervan zien*/
-/*  het ~ teken betkend dat als je*/
+/*  het ~ teken betkend dat als je fds*/
 }
 .h3-sporten:hover~ .sporten-content{
   visibility: visible;
