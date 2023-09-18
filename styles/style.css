@@ -108,7 +108,7 @@ img {
     transition-duration: 5s;
 }
 
-.div-about-me { /*div in de hoek*/
+.about-me { /*div in de hoek*/
     position: absolute;
     /*met absolutut blijft de div op 1 aangewezen positie die niet hetzelfde is
        als de andere divs over mij en vrije tijd en kan de div dus ook boven op een andere dv zitten*/
